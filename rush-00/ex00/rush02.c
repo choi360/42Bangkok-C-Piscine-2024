@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   rush04.c                                           :+:      :+:    :+:   */
+/*   rush02.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: komethaw <komethaw@student.42bangkok.com>  +#+  +:+       +#+        */
+/*   By: warcharo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/14 19:27:09 by komethaw          #+#    #+#             */
-/*   Updated: 2024/01/14 19:27:14 by komethaw         ###   ########.fr       */
+/*   Created: 2024/01/14 18:59:53 by warcharo          #+#    #+#             */
+/*   Updated: 2024/01/14 19:16:44 by komethaw         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ void	rush(int x, int y)
 {
 	if (x > 0 && y > 0)
 	{
-		ft_print_line(x, 'A', 'B', 'C');
+		ft_print_line(x, 'A', 'B', 'A');
 		y--;
 		while (y > 1)
 		{
@@ -37,6 +37,6 @@ void	rush(int x, int y)
 			y--;
 		}
 		if (y > 0)
-			ft_print_line(x, 'C', 'B', 'A');
+			ft_print_line(x, 'C', 'B', 'C');
 	}
 }
