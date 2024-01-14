@@ -28,4 +28,3 @@ void	rush(int x, int y)
 			ft_print_line(x, 'C', 'B', 'A');
 	}
 }
-
