@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_reverse_alphabet.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kmethawa <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: komethaw <komethaw@student.42bangkok.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/23 21:52:28 by kmethawa          #+#    #+#             */
-/*   Updated: 2021/10/27 23:58:49 by kmethawa         ###   ########.fr       */
+/*   Created: 2024/01/17 17:28:30 by komethaw          #+#    #+#             */
+/*   Updated: 2024/01/17 17:28:36 by komethaw         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
