@@ -1,4 +1,6 @@
 #!/bin/sh
+mkdir ex02
+cd ex02
 mkdir test0
 mkdir test2
 touch test{1,3,4}

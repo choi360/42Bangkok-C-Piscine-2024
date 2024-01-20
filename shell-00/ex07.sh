@@ -1,4 +1,5 @@
 #!/bin/sh
+cd ex07
 tar -xf ./resources.tar.gz
 patch ./a -o ./b < ./sw.diff
 diff ./a ./b > ./sw.diff2
