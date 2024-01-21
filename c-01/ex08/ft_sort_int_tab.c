@@ -6,12 +6,12 @@
 /*   By: komethaw <komethaw@student.42bangkok.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/20 23:17:03 by komethaw          #+#    #+#             */
-/*   Updated: 2024/01/20 23:23:02 by komethaw         ###   ########.fr       */
+/*   Updated: 2024/01/21 19:00:36 by komethaw         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 void	ft_sort_int_tab(int *tab, int size)
-{	
+{
 	int	i;
 	int	tmp;
 
