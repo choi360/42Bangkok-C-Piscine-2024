@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr_non_printable.c                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kmethawa <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: komethaw <komethaw@student.42bangkok.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/11/05 13:57:55 by kmethawa          #+#    #+#             */
-/*   Updated: 2021/11/05 13:58:00 by kmethawa         ###   ########.fr       */
+/*   Created: 2024/01/23 14:35:07 by komethaw          #+#    #+#             */
+/*   Updated: 2024/01/23 14:35:11 by komethaw         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
