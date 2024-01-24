@@ -6,11 +6,9 @@
 /*   By: komethaw <komethaw@student.42bangkok.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/23 13:55:39 by komethaw          #+#    #+#             */
-/*   Updated: 2024/01/23 13:56:04 by komethaw         ###   ########.fr       */
+/*   Updated: 2024/01/23 18:45:40 by komethaw         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-//#include <stdio.h>
 
 char	*ft_strlowcase(char *str)
 {
@@ -20,12 +18,14 @@ char	*ft_strlowcase(char *str)
 	while (str[i])
 	{
 		if (str[i] >= 'A' && str[i] <= 'Z')
-			str[i] = str[i] + 32;
+			str[i] = str[i] + ('a' - 'A');
 		i++;
 	}
 	return (str);
 }
 /*
+#include <stdio.h>
+
 int	main(void)
 {
 	char	str[20];
@@ -35,4 +35,5 @@ int	main(void)
 	sprintf(str, "%s", ft_strlowcase(str));
 	printf("str = %s\n", str);
 	return (0);
-}*/
+}
+*/

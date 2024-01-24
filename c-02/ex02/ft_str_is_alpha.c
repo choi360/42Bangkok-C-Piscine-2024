@@ -6,11 +6,9 @@
 /*   By: komethaw <komethaw@student.42bangkok.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/23 13:12:14 by komethaw          #+#    #+#             */
-/*   Updated: 2024/01/23 13:26:36 by komethaw         ###   ########.fr       */
+/*   Updated: 2024/01/23 18:32:25 by komethaw         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-//#include <stdio.h>
 
 int	ft_str_is_alpha(char *str)
 {
@@ -23,10 +21,14 @@ int	ft_str_is_alpha(char *str)
 	return (1);
 }
 /*
+#include <stdio.h>
+
 int	main(void)
 {
 	int	i;
+
 	i = ft_str_is_alpha("sfasd sdfas");
 	printf("i = %d", i);
 	return (0);
-}*/
+}
+*/
