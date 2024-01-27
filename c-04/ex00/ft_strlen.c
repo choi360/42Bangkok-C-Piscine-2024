@@ -1,30 +1,32 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kmethawa <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: komethaw <komethaw@student.42bangkok.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/11/04 21:45:48 by kmethawa          #+#    #+#             */
-/*   Updated: 2021/11/04 21:53:20 by kmethawa         ###   ########.fr       */
+/*   Created: 2024/01/27 14:56:33 by komethaw          #+#    #+#             */
+/*   Updated: 2024/01/27 14:56:58 by komethaw         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <string.h>
+int	ft_strlen(char *str)
+{
+	int	i;
 
-char	*ft_strncat(char *dest, char *src, unsigned int nb);
+	i = 0;
+	while (*str++)
+		i++;
+	return (i);
+}
+/*
+#include <stdio.h>
 
 int	main(void)
 {
-	char			dest[50];
-	char			*src;
-	unsigned int	size;
+	int	i;
 
-	sprintf(dest, "%s", "bonjour");
-	src = " les amis";
-	size = 5;
-	printf(".%s.\n", ft_strncat(dest, src, size));
-	printf(".%s.\n", strncat(dest, src, size));
+	i = ft_strlen("Hello World.");
+	printf("i = %d\n", i);
 	return (0);
-}
+}*/
