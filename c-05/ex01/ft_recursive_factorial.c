@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_recursive_factorial.c                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kmethawa <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: komethaw <komethaw@student.42bangkok.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/11/10 21:46:07 by kmethawa          #+#    #+#             */
-/*   Updated: 2021/11/10 21:46:11 by kmethawa         ###   ########.fr       */
+/*   Created: 2024/01/28 16:55:18 by komethaw          #+#    #+#             */
+/*   Updated: 2024/01/28 16:55:38 by komethaw         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
