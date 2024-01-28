@@ -6,7 +6,7 @@
 /*   By: komethaw <komethaw@student.42bangkok.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/27 14:58:54 by komethaw          #+#    #+#             */
-/*   Updated: 2024/01/27 15:06:44 by komethaw         ###   ########.fr       */
+/*   Updated: 2024/01/27 17:01:06 by komethaw         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,28 +17,32 @@ void	ft_putchar(char c)
 	write(1, &c, 1);
 }
 
+void	ft_print_reversed(int nb)
+{
+	if (nb >= 10)
+		ft_print_reversed(nb / 10);
+	ft_putchar(nb % 10 + '0');
+}
+
 void	ft_putnbr(int nb)
 {
 	if (nb == -2147483648)
 	{
-		ft_putnbr(nb / 10);
-		ft_putchar('8');
+		ft_putchar('-');
+		ft_putchar('2');
+		nb = 147483648;
 	}
-	else if (nb < 0)
+	if (nb < 0)
 	{
 		ft_putchar('-');
-		ft_putnbr(-nb);
+		nb = -nb;
 	}
-	else
-	{
-		if (nb > 9)
-			ft_putnbr(nb / 10);
-		ft_putchar('0' + nb % 10);
-	}
+	ft_print_reversed(nb);
 }
 /*
 int	main(void)
 {
 	ft_putnbr(-2147483648);
 	return (0);
-}*/
+}
+*/
