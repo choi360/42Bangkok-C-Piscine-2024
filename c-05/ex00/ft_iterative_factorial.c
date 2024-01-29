@@ -6,7 +6,7 @@
 /*   By: komethaw <komethaw@student.42bangkok.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/28 16:53:52 by komethaw          #+#    #+#             */
-/*   Updated: 2024/01/28 16:54:55 by komethaw         ###   ########.fr       */
+/*   Updated: 2024/01/28 19:16:38 by komethaw         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ int	ft_iterative_factorial(int nb)
 		return (0);
 	index = 1;
 	factorial = 1;
-	while (index < nb + 1)
+	while (index <= nb)
 		factorial = factorial * index++;
 	return (factorial);
 }
