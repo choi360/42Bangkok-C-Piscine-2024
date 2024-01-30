@@ -6,7 +6,7 @@
 /*   By: komethaw <komethaw@student.42bangkok.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/28 16:14:20 by komethaw          #+#    #+#             */
-/*   Updated: 2024/01/28 16:19:54 by komethaw         ###   ########.fr       */
+/*   Updated: 2024/01/30 21:19:14 by komethaw         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,8 @@ int	ft_atoi(char *str)
 	i = 0;
 	sign = 1;
 	result = 0;
-	while (str[i] == ' ' || str[i] == '\n' || str[i] == '\t' ||
-		str[i] == '\r' || str[i] == '\v' || str[i] == '\f')
+	while (str[i] == ' ' || str[i] == '\n' || str[i] == '\t'
+		|| str[i] == '\r' || str[i] == '\v' || str[i] == '\f')
 		i++;
 	while (str[i] == '-' || str[i] == '+')
 	{
