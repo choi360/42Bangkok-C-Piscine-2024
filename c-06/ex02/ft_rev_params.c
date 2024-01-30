@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: komethaw <komethaw@student.42bangkok.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/29 18:58:18 by komethaw          #+#    #+#             */
-/*   Updated: 2024/01/30 15:46:24 by komethaw         ###   ########.fr       */
+/*   Created: 2024/01/30 21:13:48 by komethaw          #+#    #+#             */
+/*   Updated: 2024/01/30 21:13:51 by komethaw         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,9 +18,9 @@ int	main(int argc, char *argv[])
 {
 	int	index;
 
-	if (argc < 2)
+	if (argc == 0)
 	{
-		write(1, "No arguments provided\n", 22);
+		write(1, "impossible", 11);
 	}
 	else
 	{
