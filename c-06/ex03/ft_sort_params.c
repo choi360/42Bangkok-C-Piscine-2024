@@ -6,7 +6,7 @@
 /*   By: komethaw <komethaw@student.42bangkok.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/29 18:58:47 by komethaw          #+#    #+#             */
-/*   Updated: 2024/01/29 18:58:52 by komethaw         ###   ########.fr       */
+/*   Updated: 2024/01/30 15:46:56 by komethaw         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,9 +21,9 @@ int	main(int argc, char *argv[])
 {
 	int	index;
 
-	if (argc == 0)
+	if (argc < 2)
 	{
-		write(1, "impossible", 11);
+		write(1, "No arguments provided\n", 22);
 	}
 	else
 	{
