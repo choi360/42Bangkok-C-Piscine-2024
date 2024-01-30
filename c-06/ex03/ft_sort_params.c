@@ -6,11 +6,11 @@
 /*   By: komethaw <komethaw@student.42bangkok.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/30 21:14:07 by komethaw          #+#    #+#             */
-/*   Updated: 2024/01/30 21:14:10 by komethaw         ###   ########.fr       */
+/*   Updated: 2024/01/30 21:51:16 by komethaw         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include	<unistd.h>
+#include <unistd.h>
 
 int		ft_strcmp(char *s1, char *s2);
 void	ft_swap(char **a, char **b);

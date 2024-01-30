@@ -6,11 +6,11 @@
 /*   By: komethaw <komethaw@student.42bangkok.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/30 21:13:29 by komethaw          #+#    #+#             */
-/*   Updated: 2024/01/30 21:13:31 by komethaw         ###   ########.fr       */
+/*   Updated: 2024/01/30 21:51:02 by komethaw         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include	<unistd.h>
+#include <unistd.h>
 
 void	ft_putstr(char *string);
 
